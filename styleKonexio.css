@@ -1,0 +1,142 @@
+nav
+{
+	background-color: black;
+	color: white;
+}
+p,a
+{
+	font-family: Josefin Sans;
+	font-weight: light;
+}
+h4
+{
+	font-family: Josefin Sans;
+	font-weight: Semibold;
+	font-size: 35px;
+}
+h6
+{
+	font-family: Josefin Sans;
+	font-weight: Semibold;
+	font-size: 20px;
+	margin-bottom: 10 px;
+}
+a
+{
+	color: white;
+	text-decoration: none;
+	margin: 15px;
+}
+a[id="Try"]
+{
+	border: 1px solid white;
+	border-radius: 5px;
+	padding: 5px;
+}
+.NavMain
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.NavLeft
+{
+	margin-left: 20px;
+}
+.NavRight
+{
+	margin-right: 20px;
+}
+.un
+{
+	color: white;
+	background-image: url('KonexBack.jpg');
+	background-size: cover;
+	padding:300px;
+}
+.unUn
+{
+	width: 40%;
+}
+.unDeux
+{
+	width: 50%;
+	margin-bottom: 100px;
+}
+.deux
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 100px;
+	background-color: #F8F2F2;
+	margin-bottom: 50px;
+}
+#deuxUn,#deuxDeux
+{
+	text-align: center;
+}
+#pseudo
+{
+	height: 35px;
+	width: 500px;
+	border: 1px solid white;
+	border-radius: 5px;
+}
+#submit,#compute
+{
+	background-color: #F7656E;
+	color: white;
+	border: 1px solid #F7656E;
+	border-radius: 5px;
+	height: 40px;
+	width: 120px;
+}
+.trois
+{
+	display: flex;
+	
+	justify-content: space-around;
+	flex-direction: row ;
+}
+
+.troisUn,.troisDeux,.troisTrois
+{
+	border-top: 4px solid #F7656E;
+	display: flex;
+	flex-direction:column ;
+	width: 30%;
+}
+.troisUn
+{
+	margin-left: 15%;
+}
+.troisTrois
+{
+	margin-right: 15%;
+}
+.troisDeux
+{
+	margin-right: 5%;
+	margin-left: 5%;
+}
+#pied
+{
+	color: white;
+	display: flex;
+	justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#pied2
+{
+	color: white;
+	display: flex;
+	justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+footer
+{
+	background-color: black;
+}
